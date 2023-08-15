@@ -6,21 +6,21 @@
 <br>
 <div>
     <b>二、赛事任务</b> <br>
-    本次赛事针对钢铁生产企业物料传送皮带图片，参赛者需要完成如下要求：   
-    1）将皮带上是否有异物检测出来，并标记异物类别和位置。    
-    2）检测皮带上物料是否跑偏，给出检测结果
+    本次赛事针对钢铁生产企业物料传送皮带图片，参赛者需要完成如下要求：   <br>
+    1）将皮带上是否有异物检测出来，并标记异物类别和位置;    <br>
+    2）检测皮带上物料是否跑偏，给出检测结果。<br>
     
-    输入/输出:
-    (1) 输入:一张图片，jpg格式
-    (2) 输出:检测产品的异物类型，异物位置，物料跑偏检测结果。
+    输入/输出: <br>
+    (1) 输入:一张图片，jpg格式 <br>
+    (2) 输出:检测产品的异物类型，异物位置，物料跑偏检测结果。 <br>
 </div>
 <br>
  
-<li><b>Kaggle军用飞行器检测数据集</b><br>
+<li>传送带异物检测及物料跑偏检测数据集</b><br>
 <div>
-数据集地址：https://www.kaggle.com/datasets/a2015003713/militaryaircraftdetectiondataset <br>
+数据集地址：https://challenge.xfyun.cn/topic/info?type=conveyor-belt&option=stsj <br>
 数据集页面：
-<img width="1064" alt="image" src="https://user-images.githubusercontent.com/36066270/219633087-160e9ef9-f541-4802-9fc2-2ad6340864cd.png">
+<img width="1011" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/21c82328-ad15-4d52-80f4-ed22b58f7d6a">
 </div>
 <br>
 <br>
