@@ -67,8 +67,11 @@ pip install pycocotools
 <br>
 <br>
 
-<li><b>本工程运行效果</b><br>
-    <center><img width="649" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/45a1fdcf-59e3-40fe-9e8a-748263c7fe49"></center>
+<li><b>本工程运行效果</b><br><br>
+    <div align=center>
+        <img width="649" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/45a1fdcf-59e3-40fe-9e8a-748263c7fe49">
+    </div>
+<br>
 
 <li><b>模型性能(COCO评估)</b><br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据集10, 000张图片, 405张用于训练，剩下182张图片用于测试和评估，采用GPU P100训练70小时, 总共经历119个迭代(epochs)，目前达到的性能Iou 0.50以上的mAP为55.0%。召回率为40.6%.<br><br>
