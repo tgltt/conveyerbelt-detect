@@ -1,8 +1,8 @@
 # 传送带异物检测及物料跑偏检测挑战赛
 <div>
     <b>一、赛事背景</b><br>
-    在工业场景中，对传送带上的异物检测以及传送带物料偏移检测是保证产品质量以及生产安全的一个重要的环节。但通常面临着异物种类繁多、异物样本不规则、异物目标小、部分异物种类样本少的问题。本赛题就是针对此类场景设置，在限定样本数量的情况下进行传送带安全检测，即对传送带异物以及传送带物料是否存在偏移进行检测识别，是一个极具挑战性的小目标检测任务。<br>
-    赛事网址：https://challenge.xfyun.cn/topic/info?type=conveyor-belt&option=ssgy
+    &nbsp;&nbsp;&nbsp;&nbsp;在工业场景中，对传送带上的异物检测以及传送带物料偏移检测是保证产品质量以及生产安全的一个重要的环节。但通常面临着异物种类繁多、异物样本不规则、异物目标小、部分异物种类样本少的问题。本赛题就是针对此类场景设置，在限定样本数量的情况下进行传送带安全检测，即对传送带异物以及传送带物料是否存在偏移进行检测识别，是一个极具挑战性的小目标检测任务。<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;赛事网址：https://challenge.xfyun.cn/topic/info?type=conveyor-belt&option=ssgy
 </div>
 <br>
 <div>
@@ -67,10 +67,8 @@ pip install pycocotools
 <br>
 <br>
 
-<li><b>本工程运行效果</b><br>
+<li align=center><b>本工程运行效果</b><br>
     <img width="649" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/45a1fdcf-59e3-40fe-9e8a-748263c7fe49">
-
-    <br>
 
 <li><b>模型性能(COCO评估)</b><br>
     数据集10, 000张图片, 405张用于训练，剩下182张图片用于测试和评估，采用GPU P100训练70小时, 总共经历119个迭代(epochs)，目前达到的性能Iou 0.50以上的mAP为55.0%。召回率为40.6%.<br><br>
