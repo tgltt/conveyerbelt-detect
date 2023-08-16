@@ -70,16 +70,8 @@ pip install pycocotools
 <br>
 
 <li><b>本工程运行效果</b><br>
-    以下检测结果图片在本工程的test_img目录下，检测结果上方文字，左边表示航空器类型，右边表示检测结果置信度。<br><br>
-    检测图片路径：<a href="test_img/7854921f5e41d063b65bca8b429b6aa8.jpg">test_img/7854921f5e41d063b65bca8b429b6aa8.jpg</a><br>
-    <img width="521" alt="image" src="https://user-images.githubusercontent.com/36066270/219657506-67d3406f-ac83-4ccd-bc90-842f17be536b.png"><br><br>
-    检测图片路径：<a href="test_img/02d408885ea1339fac6e2344086599ab.jpg">test_img/02d408885ea1339fac6e2344086599ab.jpg</a><br>
-    <img width="787" alt="image" src="https://user-images.githubusercontent.com/36066270/219657823-e0d68fe0-12fa-41f8-9f8f-0513461433c5.png"><br><br>
-    检测图片路径：<a href="test_img/00ebecac178be3c3890a067d6a28234e.jpg">test_img/00ebecac178be3c3890a067d6a28234e.jpg</a><br>
-    <img width="465" alt="image" src="https://user-images.githubusercontent.com/36066270/219658699-75fd9c95-e053-4f01-ab6c-a99620e5db46.png"><br><br>
-
-美国C130大力神运输机视频检测效果： <a href="test_img/video/C130_detect.mp4">test_img/video/C130_detect.mp4</a><br>
-美国F35攻击机视频检测效果：<a href="test_img/video/F35_detect.mp4">test_img/video/F35_detect.mp4</a><br>
+    
+    <br>
 
 <li><b>模型性能(COCO评估)</b><br>
     数据集10, 000张图片, 8,000张用于训练，剩下2,000张图片用于测试和评估，采用GPU P100训练70小时, 总共经历250个迭代(epochs)，目前达到的性能Iou 0.50以上的mAP为64.1%。召回率为61.5%.<br><br>
