@@ -7,9 +7,9 @@
 <br>
 <div>
     <b>二、赛事任务</b> <br>
-    本次赛事针对钢铁生产企业物料传送皮带图片，参赛者需要完成如下要求：   <br>
-    1）将皮带上是否有异物检测出来，并标记异物类别和位置;    <br>
-    2）检测皮带上物料是否跑偏，给出检测结果。<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本次赛事针对钢铁生产企业物料传送皮带图片，参赛者需要完成如下要求：   <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）将皮带上是否有异物检测出来，并标记异物类别和位置;    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）检测皮带上物料是否跑偏，给出检测结果。<br>
     
     输入/输出: <br>
     (1) 输入:一张图片，jpg格式 <br>
@@ -19,8 +19,8 @@
  
 <li>传送带异物检测及物料跑偏检测数据集</b><br>
 <div>
-数据集地址：https://challenge.xfyun.cn/topic/info?type=conveyor-belt&option=stsj <br>
-数据集页面：
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据集地址：https://challenge.xfyun.cn/topic/info?type=conveyor-belt&option=stsj <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据集页面：
 <img width="1011" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/21c82328-ad15-4d52-80f4-ed22b58f7d6a">
 </div>
 <br>
@@ -45,7 +45,7 @@
 <br>
 
 <li><b>环境配置</b><br>
-<div>Pip 安装包含所有 requirements.txt 的包，环境要求 Python>=3.6，且 PyTorch>=1.7
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pip 安装包含所有 requirements.txt 的包，环境要求 Python>=3.6，且 PyTorch>=1.7
 此外，需安装Coco性能(mAP)评估工具，使用下面的命令:</div>
     
 ```bash
@@ -56,7 +56,7 @@ pip install pycocotools
     
 <li><b>工程算法说明</b><br>
 <div>
-    本工程基于<b>多任务多尺度的物体检测框架SSD</b>，根据军用航空器数据集的特点，进行<b>算法模型改造</b>，涉及改造点为图片数据格式筛选、训练集/测试集数据划分、图像标签数据结构转换为COCO数据格式、学习率及学习率调度参数调整、根据军用飞行器数据集计算Normalization的均值及标准差等。<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本工程基于<b>多任务多尺度的物体检测框架SSD</b>，根据军用航空器数据集的特点，进行<b>算法模型改造</b>，涉及改造点为图片数据格式筛选、训练集/测试集数据划分、图像标签数据结构转换为COCO数据格式、学习率及学习率调度参数调整、根据军用飞行器数据集计算Normalization的均值及标准差等。<br>
 </div>
     
 <div align=center>
@@ -71,7 +71,7 @@ pip install pycocotools
     <img width="649" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/45a1fdcf-59e3-40fe-9e8a-748263c7fe49">
 
 <li><b>模型性能(COCO评估)</b><br>
-    数据集10, 000张图片, 405张用于训练，剩下182张图片用于测试和评估，采用GPU P100训练70小时, 总共经历119个迭代(epochs)，目前达到的性能Iou 0.50以上的mAP为55.0%。召回率为40.6%.<br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据集10, 000张图片, 405张用于训练，剩下182张图片用于测试和评估，采用GPU P100训练70小时, 总共经历119个迭代(epochs)，目前达到的性能Iou 0.50以上的mAP为55.0%。召回率为40.6%.<br><br>
     
 <div align=center>
 <b>模改后的算法模型性能指标(epochs=249)</b>
@@ -97,4 +97,4 @@ pip install pycocotools
 
 <br><br>
 <li><b>展望</b><br>
-本工程目前的检测精度还不够高，后续需对此进一步性能优化。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本工程目前的检测精度还不够高，后续需对此进一步性能优化。
