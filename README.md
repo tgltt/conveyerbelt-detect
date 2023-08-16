@@ -70,7 +70,8 @@ pip install pycocotools
 <br>
 
 <li><b>本工程运行效果</b><br>
-    
+    <img width="649" alt="image" src="https://github.com/tgltt/conveyerbelt-detect/assets/36066270/45a1fdcf-59e3-40fe-9e8a-748263c7fe49">
+
     <br>
 
 <li><b>模型性能(COCO评估)</b><br>
