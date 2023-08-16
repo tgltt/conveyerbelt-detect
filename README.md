@@ -1,7 +1,8 @@
 # 传送带异物检测及物料跑偏检测挑战赛
 <div>
     <b>一、赛事背景</b><br>
-    在工业场景中，对传送带上的异物检测以及传送带物料偏移检测是保证产品质量以及生产安全的一个重要的环节。但通常面临着异物种类繁多、异物样本不规则、异物目标小、部分异物种类样本少的问题。本赛题就是针对此类场景设置，在限定样本数量的情况下进行传送带安全检测，即对传送带异物以及传送带物料是否存在偏移进行检测识别，是一个极具挑战性的小目标检测任务。
+    在工业场景中，对传送带上的异物检测以及传送带物料偏移检测是保证产品质量以及生产安全的一个重要的环节。但通常面临着异物种类繁多、异物样本不规则、异物目标小、部分异物种类样本少的问题。本赛题就是针对此类场景设置，在限定样本数量的情况下进行传送带安全检测，即对传送带异物以及传送带物料是否存在偏移进行检测识别，是一个极具挑战性的小目标检测任务。<br>
+    赛事网址：https://challenge.xfyun.cn/topic/info?type=conveyor-belt&option=ssgy
 </div>
 <br>
 <div>
@@ -88,18 +89,19 @@ pip install pycocotools
 
 |          PR指标         |     IoU   |   area | maxDets| AP/AR取值 |
 |          :-----         |   :----:  | :----: | :----: |  :----:  |
-| Average Precision  (AP) | 0.50:0.95 |  all   |   100  |  0.497   |
-| Average Precision  (AP) | 0.50      |  all   |   100  |  0.641   |
-| Average Precision  (AP) | 0.75      |  all   |   100  |  0.571   |
-| Average Precision  (AP) | 0.50:0.95 |  small |   100  |  0.160   |
-| Average Precision  (AP) | 0.50:0.95 | medium |   100  |  0.238   |
-| Average Precision  (AP) | 0.50:0.95 | large  |   100  |  0.535   |
-| Average Recall     (AR) | 0.50:0.95 |  all   |   1    |  0.499   |
-| Average Recall     (AR) | 0.50:0.95 |  all   |   10   |  0.615   |
-| Average Recall     (AR) | 0.50:0.95 |  all   |   100  |  0.615   |
-| Average Recall     (AR) | 0.50:0.95 |  small |   100  |  0.183   |
-| Average Recall     (AR) | 0.50:0.95 | medium |   100  |  0.314   |
-| Average Recall     (AR) | 0.50:0.95 | large  |   100  |  0.655   |
+| Average Precision  (AP) | 0.50:0.95 |  all   |   100  |  0.321   |
+| Average Precision  (AP) | 0.50      |  all   |   100  |  0.550   |
+| Average Precision  (AP) | 0.75      |  all   |   100  |  0.325   |
+| Average Precision  (AP) | 0.50:0.95 |  small |   100  | -1.000   |
+| Average Precision  (AP) | 0.50:0.95 | medium |   100  |  0.289   |
+| Average Precision  (AP) | 0.50:0.95 | large  |   100  |  0.350   |
+| Average Recall     (AR) | 0.50:0.95 |  all   |   1    |  0.331   |
+| Average Recall     (AR) | 0.50:0.95 |  all   |   10   |  0.372   |
+| Average Recall     (AR) | 0.50:0.95 |  all   |   100  |  0.372   |
+| Average Recall     (AR) | 0.50:0.95 |  small |   100  | -1.000   |
+| Average Recall     (AR) | 0.50:0.95 | medium |   100  |  0.319   |
+| Average Recall     (AR) | 0.50:0.95 | large  |   100  |  0.406   |
+
 </div>
     
 <br>
